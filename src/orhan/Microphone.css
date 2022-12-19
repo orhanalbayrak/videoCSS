@@ -1,0 +1,135 @@
+.audio-preview-content{
+    background:#242528;
+    border-radius:10px;
+    font-size:14px;
+    line-height:10px;
+    margin: -8px;
+    max-height:456px;
+    overflow:auto;
+    width:300px;
+    bottom: 85px;
+    position: absolute;
+}
+
+.audio-preview-header{
+    color:#fff;
+    align-items:center;
+    display:flex;
+    margin-top:8px;
+    padding:3px 6px
+
+}
+
+.audio-preview-header-icon{
+   display: inline-block;
+}
+.audio-preview-header-icon img{
+   color :#fff;
+}
+.audio-preview-header-text{
+    color: #fff;
+    margin-left: 12px;
+    align-items: center;
+
+
+}
+.microphones-menu{
+    color: #fff;
+    display: flex;
+    padding: 6px 12px;
+
+}
+
+.microphones-ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    width: 276px;
+}
+.microphones-li{
+    position: relative;
+}
+.microphone-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 165px;
+    height: 14px;
+    white-space: nowrap;
+}
+
+.microphone-label{
+
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    padding: 8px 0;
+    margin-left: 13px;
+
+}
+
+.mic-checkIcon{
+    height: 15px;
+    border-radius: 50%;
+    background: #31b76a;
+    margin-right: 8px;
+    display: inline-block;
+}
+.mic-checkIcon img{
+    margin-bottom: -2px;
+}
+
+.meter{
+    position: absolute;
+    right: 8px;
+    top: 7px;
+    display: inline-block;
+
+}
+
+.metr-l-0 rect:nth-child(-n) {
+    fill: #31B76A;
+}
+.metr-l-1 rect:nth-child(-n+1) {
+    fill: #31B76A;
+}
+.metr-l-2 rect:nth-child(-n+2) {
+    fill: #31B76A;
+}
+.metr-l-3 rect:nth-child(-n+3) {
+    fill: #31B76A;
+}
+.metr-l-4 rect:nth-child(-n+4) {
+    fill: #31B76A;
+}
+.metr-l-5 rect:nth-child(-n+5) {
+    fill: #31B76A;
+}
+.metr-l-6 rect:nth-child(-n+6) {
+    fill: #31B76A;
+}
+.metr-l-7 rect:nth-child(-n+7) {
+    fill: #ff0000;
+}
+
+::-webkit-scrollbar {
+     width: 7px;
+ }
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2a2b31;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+

@@ -1,0 +1,109 @@
+.video-preview-content{
+    background:#242528;
+    border-radius:10px;
+    font-size:14px;
+    line-height:10px;
+    margin: -8px;
+    max-height:456px;
+    overflow:auto;
+    width:250px;
+    bottom: 85px;
+    position: absolute;
+}
+
+.video-preview-header{
+    color:#fff;
+    align-items:center;
+    display:flex;
+    margin-top:8px;
+    padding:3px 6px
+
+}
+
+.video-preview-header-icon{
+    display: inline-block;
+}
+.video-preview-header-icon img{
+    color :#fff;
+}
+.video-preview-header-text{
+    color: #fff;
+    margin-left: 12px;
+    align-items: center;
+
+
+}
+.cameras-menu{
+    color: #fff;
+    display: flex;
+    padding: 6px 12px;
+
+}
+
+.cameras-ul{
+    margin: 0;
+    padding: 0;
+    list-style-type:none;
+    width: 276px;
+}
+.cameras-li{
+    position: relative;
+}
+.camera-text{
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 165px;
+    height: 14px;
+    white-space: nowrap;
+}
+
+.camera-label{
+
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    display: flex;
+    padding: 8px 0;
+    margin-left: 13px;
+
+}
+
+.camera-checkIcon{
+    height: 15px;
+    border-radius: 50%;
+    background: #31b76a;
+    margin-right: 8px;
+    display: inline-block;
+}
+.camera-checkIcon img{
+    margin-bottom: -2px;
+}
+
+.meter{
+    position: absolute;
+    right: 8px;
+    top: 7px;
+    display: inline-block;
+
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #2a2b31;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #000;
+    border-radius: 3px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+

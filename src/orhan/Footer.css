@@ -1,0 +1,207 @@
+
+.Footer {
+    align-items: baseline;
+    position: fixed;
+    text-align: center;
+    white-space: nowrap;
+    background: #1b1a1d;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    bottom: 0;
+    display: flex;
+    margin-bottom: 0;
+    box-sizing: border-box;
+    width: 100%;
+    height: 5rem;
+}
+
+
+.left-buttons {
+    flex: 1 1 25%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-start;
+    height: 40px
+}
+.menuList-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.left-buttons-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 12px;
+    padding: 0 6px;
+    max-height: 40px;
+    height: 40px;
+}
+
+.menuList div{
+    width: 25px;
+    height: 14px;
+    margin:3px;
+    position: relative;
+}
+.menuList span{
+    background: #fff;
+    width: 78%;
+    height: 2px;
+    border-radius: 5px;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    transition: transform 0.5s, width  0.5s;
+}
+.menuList .line-1{
+    transform: translate(-50%,-7px);
+}
+.menuList .line-3{
+    transform: translate(-50%,5px);
+}
+.openMenuList .line-1{
+    transform: translate(-50%,-50%) rotate(-45deg);
+}
+.openMenuList .line-3{
+    transform: translate(-50%,-50%) rotate(45deg);
+}
+.openMenuList .line-2{
+    width: 0;
+}
+.start-button {
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    max-width: 100%;
+    overflow: hidden;
+    text-align: start;
+    text-overflow: ellipsis;
+}
+
+.middle-buttons {
+    flex: 1 1 25%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 40px
+}
+
+.middle-buttons-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-column-gap: 12px;
+    padding: 0 6px;
+    max-height: 40px;
+    height: 40px;
+}
+.button-container{
+    display: flex;
+    grid-auto-flow: column;
+}
+
+#mic-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.newParticipant-button {
+    display: grid;
+}
+
+.right {
+    flex: 1 1 25%;
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+    height: 40px
+}
+
+.upperButton{
+    height: fit-content;
+    position: fixed;
+}
+
+
+#rightUpper {
+    width: 15px;
+    padding: 0px;
+    height: 15px;
+    position: absolute;
+    background: #505050
+}
+
+#rightUpper-2 {
+    width: 15px;
+    padding: 0px;
+    height: 15px;
+    position: absolute;
+}
+
+#rightUpper-3 {
+    width: 23px;
+    padding: 0px;
+    height: 21px;
+    min-width: 3px;
+    position: absolute;
+    left: 42%;
+    bottom: 62%;
+}
+
+#rightUpper-3 {
+    width: 23px;
+    padding: 0px;
+    height: 21px;
+    min-width: 3px;
+    position: absolute;
+    left: 49%;
+    bottom: 62%;
+}
+
+#rightUpper-4 {
+    width: 23px;
+    padding: 0px;
+    height: 21px;
+    min-width: 3px;
+    position: absolute;
+    left: 55.5%;
+    bottom: 62%;
+}
+
+/*.p-button-info {*/
+/*    border-radius: 8px;*/
+/*    box-shadow: 1px 1px 8px #000;*/
+/*    outline: none;*/
+/*    position: relative;*/
+/*}*/
+
+#left-button {
+    justify-content: center;
+    box-shadow: 1px 1px 8px #FF4500;
+}
+#button {
+    justify-content: center;
+    box-shadow: 1px 1px 8px #FF4500;
+}
+#button-p{
+    border-radius: 20px;
+}
+
+#button > svg {
+    position: absolute;
+    width: 20px;
+}
+#left-button > svg {
+    position: absolute;
+    width: 18px;
+}
+
+.speeddial-delay-demo .p-speeddial-direction-up {
+    left: calc(50% - 2rem);
+    bottom: 0;
+}
+.control-btn > svg {
+    vertical-align: middle;
+}
+
